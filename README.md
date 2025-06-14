@@ -1,49 +1,42 @@
 # 🌾 Sri Lanka Rice Analytics Dashboard
 
-A rice yield prediction and analytics system for Sri Lanka, analyzing agricultural data from 2004-2023 across all districts and seasons.
+[![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-View%20Here-blue)](https://diw-666-paddy-dashboard-kgigph.streamlit.app/)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## 🚀 Quick Start
+Interactive rice analytics platform for Sri Lanka (2004-2023) with ML-powered predictions and insights.
 
-1. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+## 🎯 Quick Links
 
-2. **Run the dashboard**:
-   ```bash
-   streamlit run dashboard.py
-   ```
+- [📊 Live Dashboard](https://diw-666-paddy-dashboard-kgigph.streamlit.app/) - Explore data interactively
+- [📈 Model Performance](#model-performance) - View prediction metrics
+- [🔧 Local Setup](#local-setup) - Run locally
 
-3. **Open in browser**: `http://localhost:8501`
+## 📊 Model Performance
 
-## ✨ Features
+| Model | MAE | RMSE | R² Score |
+|-------|-----|------|----------|
+| Yield Prediction | 357.50 | 461.55 | 0.804 |
+| Production Prediction | 11,163 | 24,289 | 0.934 |
 
-- **Analytics**: Compare yield and production across districts and seasons
-- **Predictions**: ML-powered yield forecasting with cultivation inputs
-- **Insights**: Automated analysis of trends and patterns  
-- **Visualizations**: Interactive charts and data exploration
+## 🔧 Local Setup
 
-## 📊 Data
+```bash
+# Clone & install
+git clone https://github.com/yourusername/paddy.git
+cd paddy
+pip install -r requirements.txt
 
-- **Coverage**: 20 years (2004-2023), 25+ districts, Maha & Yala seasons
-- **Records**: 1000+ seasonal district records
-- **Features**: Cultivation areas, harvest data, yield metrics, production
-
-## 🔬 Models
-
-- **Random Forest**: Yield prediction (R² > 0.7)
-- **Gradient Boosting**: Production prediction (R² > 0.8)
-- **Features**: 13 engineered features including efficiency ratios
-
-## 📁 Structure
-
+# Run dashboard
+streamlit run dashboard.py
 ```
-├── dashboard.py          # Main Streamlit app
-├── data_processor.py     # Data processing
-├── ml_model.py          # ML models
-├── data/                # Raw CSV files
-└── requirements.txt     # Dependencies
-```
+
+## 📦 Key Features
+
+- **📈 Analytics**: District-wise yield & production analysis
+- **🤖 ML Predictions**: Real-time yield forecasting
+- **📊 Visualizations**: Interactive charts & trends
+- **📋 Data**: 1000+ records across 36 districts (2004-2023)
 
 ## 🛠️ Tech Stack
 
@@ -54,4 +47,6 @@ A rice yield prediction and analytics system for Sri Lanka, analyzing agricultur
 
 ---
 
-Built for Sri Lankan agriculture 🇱🇰 
+<div align="center">
+  <sub>Built with ❤️ by Yasiru Vithana</sub>
+</div> 
