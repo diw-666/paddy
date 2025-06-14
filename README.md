@@ -9,8 +9,6 @@ Interactive rice analytics platform for Sri Lanka (2004-2023) with ML-powered pr
 ## 🎯 Quick Links
 
 - [📊 Live Dashboard](https://diw-666-paddy-dashboard-kgigph.streamlit.app/) - Explore data interactively
-- [📈 Model Performance](#model-performance) - View prediction metrics
-- [🔧 Local Setup](#local-setup) - Run locally
 
 ## 📊 Model Performance
 
@@ -23,7 +21,7 @@ Interactive rice analytics platform for Sri Lanka (2004-2023) with ML-powered pr
 
 ```bash
 # Clone & install
-git clone https://github.com/yourusername/paddy.git
+git clone https://github.com/diw-666/paddy.git
 cd paddy
 pip install -r requirements.txt
 
